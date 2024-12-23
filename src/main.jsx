@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles/snowfall.css'
 import './styles/App.css'
-import Snowfall from './components/snowfall'
+import Snowfall from './components/Snowfall'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
