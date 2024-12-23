@@ -1,0 +1,22 @@
+div#snowfall {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+}
+div.snowflakes {
+  border-radius: 50%;
+  /* Color de la nieve */
+  background-color: #ffffff;
+  /* Sombra de la nieve */
+  box-shadow: 0 0 3px 1px #ffffff;
+}
+@keyframes snow {
+  100% {
+    top: 100%;
+  }
+}
+@keyframes wind {
+  50% {
+    transform: translateX(-80px);
+  }
+}
